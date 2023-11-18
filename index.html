@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ময়মনসিংহ পলিটেকনিক ইনস্টিটিউট</title>
+
+    <meta name="description"
+        content="দেশে মধ্যম স্তরের প্রকৌশলী তৈরীর লক্ষ্যে ১৯৬৩ খৃষ্টাব্দে ময়মনসিংহ পলিটেকনিক ইনস্টিটিউট স্থাপিত হয়। রাজধানী ঢাকা থেকে প্রায় ১২০ কিলোমিটার দূরে সীমান্ত জেলা ময়মনসিংহ শহরের মাসকান্দায় এর অবস্থান। মোট ২৭.৩৮৫২ একর ভূমির উপর প্রতিষ্ঠিত এ প্রতিষ্ঠানটিকে ঢাকা-ময়মনসিংহ মহাসড়কটি দু-অংশে বিভক্ত করে রেখেছে। সড়কের পূর্বপাশ্বে একাডেমিক-কাম প্রশাসনিক ভবন, ওয়ার্কসপ/ল্যাব, শিক্ষক-কর্মচারীদের আবাসিক ভবনসমূহ, মসজিদ,কেজি স্কুল ও ছাত্রী নিবাস এবং পশ্চিম পার্শ্বে খেলার মাঠ, পুকুরসহ ছাত্রাবাসগুলো রয়েছে। ইনস্টিটিউটের উত্তর সীমান ঘেঁষে ময়মনসিংহ মেডিকেল কলেজ ও হাসপাতাল এবং দক্ষিনে অদুরেই টেকনিক্যাল ট্রেনিং সেন্টার ও আন্তেঃজেলা বাসটার্মিনাল। ময়মনসিংহ রেলওয়ে স্টেশন থেকে এর দূরত্ব প্রায় ৩ কিলোমিটার দক্ষিনে।" />
+
+    <script src="http://mpi.edu.bd/public/js/flipdown.js"></script>
+    <script src="http://mpi.edu.bd/public/js/main.js"></script>
+
+    <link rel="shortcut icon" href="http://mpi.edu.bd/public/image/backend_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="http://mpi.edu.bd/public/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://mpi.edu.bd/public/css/count.css">
+    <link rel="stylesheet" type="text/css" href="http://mpi.edu.bd/public/css/flipdown.css">
+    <link rel="stylesheet" type="text/css" href="http://mpi.edu.bd/public/style.css">
+
+    <!--link rel="stylesheet" href="http://mpi.edu.bd/public/gallery/dist/css/lightbox.min.css"-->
+    <link rel="stylesheet" type="text/css" href="http://mpi.edu.bd/public/assets/css/font-awesome.min.css">
+
+    <!-- jQuery [javascript library]-->
+    <script src="http://mpi.edu.bd/public/js/lib/jquery-2.2.4.js"></script>
+    <!-- animation library CSS -->
+    <link rel="stylesheet" href="http://mpi.edu.bd/public/css/lib/animation.css" type="text/css" media="all">
+    <!--Image Slider CSS-->
+    <link rel="stylesheet" type="text/css" href="http://mpi.edu.bd/public/js/sliderJS/amazingslider-1.css">
+    <link rel="stylesheet" href="http://mpi.edu.bd/public/gallery/dist/css/lightgallery.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+    <style>
+        .lg-backdrop.in {
+            opacity: .8;
+        }
+
+        body {
+            margin: 0;
+            _background: #020202;
+            _cursor: crosshair;
+        }
+
+        canvas {
+            display: block;
+            width: 600px;
+            height: 300px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            canvas {
+                display: block;
+                width: 400px;
+                height: 250px;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            canvas {
+                display: block;
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+        .example {
+            position: relative;
+        }
+
+        h1 {
+            position: absolute;
+            top: 40%;
+            left: 60%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-family: "Source Sans Pro";
+            font-size: 5em;
+            font-weight: 900;
+            -webkit-user-select: none;
+            user-select: none;
+
+
+        }
+
+        .department_section {
+            height: 249px;
+        }
+
+
+        .comment-box {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+        }
+
+        .comment-box h3 {
+            margin-bottom: 10px;
+        }
+
+        .comment-box form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .comment-box input[type="text"],
+        .comment-box textarea,
+        .comment-box input[type="submit"] {
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+
+        .comment-box input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .comment-box input[type="submit"]:hover {
+            background-color: #609513;
+        }
+
+        .nav_iteam {
+            background-color: #609513;
+            display: flex !important;
+            justify-content: space-around !important;
+
+        }
+
+        .nav_iteam li {
+            list-style: none;
+            padding: 12px;
+        }
+
+        .nav_iteam li a {
+            color: #000000;
+        }
+
+        .nav_iteam li a:hover {
+            background-color: rgb(242, 148, 16);
+            border-radius: 15px;
+            color: #609513;
+
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="container main_page">
+
+        <div id="download" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                            <span style="color:#000;padding-left:20px;font-size:28px;">Download Form</span>
+                        </h4>
+                    </div>
+                    <div class="modal-body" style="overflow-y: scroll;max-height:400px;">
+                        <table class="table table-striped table-bordered">
+                            <tr>
+                                <th width="5%">#</th>
+                                <th>Title</th>
+                                <th width="10%">Download</th>
+                            </tr>
+
+                            <tr>
+                                <td width="5%">1</td>
+                                <td>MIS Stipend Form </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/fbe294a1be.pdf"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="5%">2</td>
+                                <td>Clearance Form </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/404922bcad.jpg"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="5%">3</td>
+                                <td>MOU Between Mymensingh Polytechnic Institute & AT Computer Solution Limited (ATCSL)
+                                </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/2e9b461416.pdf"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="5%">4</td>
+                                <td>Mou, Computer Technology </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/d67aac5efd.pdf"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="5%">5</td>
+                                <td>সার্টিফিকেট উত্তোলন ফরম </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/9321668302.pdf"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="5%">6</td>
+                                <td>বদলি ভর্তির আবেদন ফরম </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/333c7a8331.pdf"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="5%">7</td>
+                                <td>পুনঃ ভর্তির আবেদন ফরম </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/0e2c507e33.pdf"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="5%">8</td>
+                                <td>সনদপত্র/সাময়িক সনদ/নম্বরপত্র/একাডেমিক ট্রান্সক্রিপ্ট-এর আবেদন ফরম - ২য় পাতা </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/ce12305f7f.pdf"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td width="5%">9</td>
+                                <td>সনদপত্র/সাময়িক সনদ/নম্বরপত্র/একাডেমিক ট্রান্সক্রিপ্ট-এর আবেদন ফরম - ১ </td>
+                                <td width="10%"><a href="http://mpi.edu.bd/public/image/downloadform/29dac0ef54.pdf"
+                                        style="display:block;" download><i class="fa fa-download fa-2x"></i></a></td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--top bar start-->
+        <div class="row top_bar">
+            <div class="col-sm-6 col-xs-6" style="float: left;"><i class="fa fa-envelope-o" aria-hidden="true">
+                    mdmerazulislam</i></div>
+            <div class="col-sm-6 col-xs-6" style="text-align: right;"><i class="fa fa-volume-control-phone"
+                    aria-hidden="true"> 672581</i></div>
+
+
+
+        </div>
+        <!--top bar end--><!--Slider start-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header_area">
+
+                    <div class="slider">
+                        <div id="amazingslider-wrapper-1"
+                            style="display:block;position:relative;max-width:100%;margin:0 auto;">
+                            <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+                                <ul class="amazingslider-slides" style="display:none;">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div align="center">
+                        <div style="margin-left: 10%; margin-right: 10%;">
+                            <img src="http://mpi.edu.bd/public/image/MPI_First_page_logo.png" alt="" width="100%" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Slider end-->
+        <!-- ********  Start navbar ******** -->
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav nav_iteam">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://en.wikipedia.org/wiki/Mymensingh_Polytechnic_Institute">ইনস্টিটিউট পরিচিতি</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/">লক্ষ্য ও উদ্দেশ্য</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/">কার্যাবলী</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/">অর্গানোগ্রাম</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/about">অবকাঠামো </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/onnerboard"> প্রাক্তন অধ্যক্ষগণ </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false"> Technology <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://mpi.edu.bd/m/students/Computer">কম্পিউটার</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Civil"> সিভিল </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Mechanical"> মেকানিক্যাল </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Electrical"> ইলেকট্রিক্যাল </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Electronics"> ইলেকট্রনিক্স </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Power"> পাওয়ার </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Electro-medical"> ইলেক্ট্রো-মেডিকেল </a></li>
+                            </ul>
+                        </li>
+
+
+                        <li><a href="http://mpi.edu.bd/m/contactus">Contact </a></li>
+                        <li><a href="form.html">Loging</a></li>
+                        <li><a href="http://mpi.edu.bd/m/contactus">Help</a></li>
+                        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false"> More <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://mpi.edu.bd/m/students/Computer">Job placement </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Civil">SAF </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Mechanical">Scouting</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="http://mpi.edu.bd/m/students/Electrical"> Tournament</a></li>
+                                <li role="separator" class="divider"></li>
+
+                                <li><a href="http://mpi.edu.bd/m/students/Electrical"> Blood Foundation</a></li>
+                                <li role="separator" class="divider"></li>
+
+                            </ul>
+                        </li>
+
+
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+
+        <!-- End Navber -->
+
+        <!-- Start left Section -->
+        <div class="row" id="content">
+            <div class="col-md-9 content_area">
+                <div class="col-md-12 leatest_updates" style="margin-bottom:15px;">
+                    <div class="" data-spy="marquee" data-life="2">
+                        <div class="top_notice">
+                            <div class="col-md-2 col-sm-4 col-xs-12" style="background:#609513;;"> <span
+                                    style="font-size:18px;font-weight:bolder;color:#ffffff; line-height: 40px;">Project:
+                                </span> </div>
+                            <div class="col-md-10 col-sm-8 col-xs-12" style="background:#609513;;">
+                                <marquee scrollamount="3">
+                                    <p>
+                                        <a href="http://mpi.edu.bd/m/breaking_news/27/a2i কর্তৃক তৈরীকৃত ময়মনসিংহ পলিটেকনিক ইনস্টিটিউট এর নতুন ওয়েব সাইট এড্রেস  mpi.polytech.gov.bd"
+                                            style="color:white; text-decoration: none;">Project 01- MPI website desing.
+                                            Submitted to Abdul Wadud. (Designed by Md Merazul Islam) </a>
+                                        &nbsp;
+                                    </p>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End marquee notice -->
+
+
+                <!-- Start notice -->
+                <div class="col-md-12 header_notice">
+                    <a href="http://mpi.edu.bd//notice/">
+                        <h4>নোটিশ বোর্ড</h4>
+                    </a>
+                    <div class="noticebody" style=" border: 1px solid #aaa;font-size:15px;">
+                        <ul>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/bc66f01799.pdf"
+                                    target="_blank">&nbsp;২য়, ৪র্থ ও ৬ষ্ঠ পর্বের সমাপনী পরীক্ষা ২০২৩
+                                    সংক্রান্ত</a>&nbsp;&nbsp;<span>০১/১২/২০২৩ খ্রিঃ</span> <img class="lazy"
+                                    style="width:40px;" data-src="http://mpi.edu.bd//public/image/new.gif"
+                                    alt="new icon"> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/2c22315c4f.pdf"
+                                    target="_blank">&nbsp;ক্লাশে উপস্থিত
+                                    সংক্রান্ত</a>&nbsp;&nbsp;<span>১৮-০৯-২০২৩</span> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/d6be0ef3f9.pdf"
+                                    target="_blank">&nbsp;বিজয় দিবস এর বন্ধ থাকবে</a>&nbsp;&nbsp;<span>16.12.2023</span> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/2cb8f85a4b.pdf"
+                                    target="_blank">&nbsp;মেকা-আপ কোর্স ভর্তি সংক্রান্ত </a>&nbsp;&nbsp;<span>০৪/০৯/২০২৩
+                                    খ্রিঃ</span> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/29e5488044.phtml"
+                                    target="_blank">&nbsp;Welcome </a>&nbsp;&nbsp;<span>29-08-2023</span> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/635fec88cb.xlsx"
+                                    target="_blank">&nbsp;ব্লকড এবং বাউন্সড শিক্ষার্থীর তালিকা
+                                </a>&nbsp;&nbsp;<span>২৭/০৮/২০২৩ খ্রিঃ</span> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/ec3526218f.pdf"
+                                    target="_blank">&nbsp;এইচএসসি (ভোকেশনাল) হতে ৪র্থ পর্বে ভর্তি সংক্রান্ত
+                                    নোটিশ।</a>&nbsp;&nbsp;<span>২২/০৮/২০২৩ খ্রিঃ</span> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/13ef40a9c4.pdf"
+                                    target="_blank">&nbsp;উপ-বৃত্তি সংক্রান্ত
+                                    নোটিশ।</a>&nbsp;&nbsp;<span>21/08/2023</span> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/dfd665b008.pdf"
+                                    target="_blank">&nbsp;পূর্ণঃভর্তির নোটিশ</a>&nbsp;&nbsp;<span>২০/০৮/২০২৩
+                                    খ্রিঃ</span> </a>
+                            </li>
+                            <li> <a href="http://mpi.edu.bd/public/image/notice/5d069076f1.pdf"
+                                    target="_blank">&nbsp;বদলীতে ভার্তির নোটিশ</a>&nbsp;&nbsp;<span>২০/০৮/২০২৩
+                                    খ্রিঃ</span> </a>
+                            </li>
+
+                        </ul>
+                        <img class=" new lazy" data-src="http://mpi.edu.bd//public/image/backend_logo.png"
+                            alt="mpi logo">
+                    </div>
+                </div>
+
+
+
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        //news and notice slider
+                        $('.noticebody').easyTicker({
+                            direction: 'up',
+                            easing: 'swing',
+                            speed: 'slow',
+                            interval: '1500'
+                        });
+
+                    });
+                </script>
+                <!-- End notice -->
+
+
+
+
+
+                <!--Evens photo gallry -->
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="eve ">
+                            <div id="calendar"></div>
+                            <!-- Fluid width widget -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading"
+                                    style="color: #ffffff;background-color: #609513;border-color: #609513;">
+                                    <h4 style="background: #609513;padding: 10px;color: #fff;"><a
+                                            href="http://mpi.edu.bd/m/gallery" style="color:#fff;font-size:20px;">Photo
+                                            Gallery</a> </h4>
+                                </div>
+
+                            </div>
+                            <!-- End fluid width widget -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="department_section">
+                            <h4> ল্যাব ক্লাস </h4>
+                            <a href="http://mpi.edu.bd/m/gallery" class="" data-responsive="http://mpi.edu.bd/public/image/gallery/f766a1bd67.jpg"
+                                data-src="http://mpi.edu.bd/public/image/gallery/f766a1bd67.jpg"
+                                data-sub-html="<h4>Annual Sports-2022 (2)</h4>">
+                                <img class="lazy"
+                                    data-src="https://scontent.fdac24-4.fna.fbcdn.net/v/t39.30808-6/309191662_2327224630767622_8341818735177332637_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHQGDSIXDsNKJi7q1qyvzCY03j0KhaXKN_TePQqFpco34aExWlBXdc_0-QSuHanczoa4nPK-HVmMb5w6sQFArU2&_nc_ohc=9DIKun5Um_UAX9BTnMr&_nc_ht=scontent.fdac24-4.fna&oh=00_AfDODM7gdsPPMfrqFJpb5-oCAO4iBvcEDGxi27WhIXRysg&oe=655C7B51"
+                                    style="height:191px; width:361px; padding-bottom:5px;padding-left:5px;">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="department_section">
+                            <h4> ইন্ডাস্ট্রিয়াল ট্রেনিং ২০২৩</h4>
+                            <a href="http://mpi.edu.bd/m/gallery" class="" data-responsive="http://mpi.edu.bd/public/image/gallery/5822360c8e.jpg"
+                                data-src="http://mpi.edu.bd/public/image/gallery/5822360c8e.jpg"
+                                data-sub-html="<h4>Annual Sports-2022 (2)</h4>">
+                                <img class="lazy" data-src="http://mpi.edu.bd/public/image/gallery/5822360c8e.jpg"
+                                    style="height:193px; width:361px; padding-bottom:5px;padding-left:5px;">
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- Evens photo gallery-->
+
+
+
+
+                <!--Evens photo gallry -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="eve ">
+                            <div id="calendar"></div>
+                            <!-- Fluid width widget -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading"
+                                    style="color: #ffffff;background-color: #609513;border-color: #609513;">
+                                    <h4 style="background: #609513;padding: 10px;color: #fff;"><a
+                                            href="http://mpi.edu.bd/m/video" style="color:#fff;font-size:20px;"> Video
+                                            Gallery</a> </h4>
+                                </div>
+                            </div>
+                            <!-- End fluid width widget -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="department_section">
+                            <h4>কম্পিউটারের ভিতরে যন্ত্রাংশ</h4>
+                            <a href="https://www.youtube.com/watch?v=AkFi90lZmXA" class="" data-responsive="https://www.youtube.com/watch?v=AkFi90lZmXA"
+                                data-src="https://www.youtube.com/watch?v=AkFi90lZmXA"
+                                data-sub-html="<h4>Annual Sports-2022 (2)</h4>">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <video width="361px" height="191px" controls
+                                        style="height: 185px;width: 355px;margin-left: 6px;">
+                                        <source src="Inside your computer.mp4" type="video/mp4">
+
+                                    </video>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="department_section">
+                            <h4>CST এর আশেপাশের পরিবেশ</h4>
+                            <a href="http://mpi.edu.bd/m/video" class=""
+                                data-responsive="https://www.youtube.com/@MymensinghPolytechnicInstitute"
+                                data-src="https://www.youtube.com/@MymensinghPolytechnicInstitute"
+                                data-sub-html="<h4>Annual Sports-2022 (2)</h4>">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <video width="361px" height="191px" controls
+                                        style="height: 185px;width: 355px;margin-left: 6px;">
+                                        <source src="CST-ashepashe.mp4" type="video/mp4">
+
+                                    </video>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- Evens photo gallery-->
+
+
+
+                <!-- End Left Section -->
+
+
+                <style>
+                    .panel-primary {
+                        border-color: #609513;
+                    }
+                </style>
+            </div>
+
+
+
+
+
+            <!-- RIGHT SIDE -->
+            <div class="col-md-3 right_section">
+                <div class="person">
+                    <h4> Principal</h4>
+
+                    <img class="lazy" data-src="http://mpi.edu.bd/public/image/principal/9f2c849e06.jpg"
+                        class="img-responsive" alt="Principal" title="Md. Showkat Hossain" /> <br />
+                    <a href="http://mpi.edu.bd/m/principal" title="#">মোঃ শওকত হোসেন</a>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Mymensingh Polytechnic Institute</span>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Phone : 01714898491</span>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Email : principal.mpi@gmail.com</span>
+                    <br>
+                </div>
+
+
+
+
+                <div class="person">
+                    <h4> Chip Instructor </h4>
+                    <img class="lazy" data-src="http://mpi.edu.bd/public/image/teacher/c852437c85.png"
+                        class="img-responsive" alt="Vice-Principal" title="Md. Shoket Hossain" /> <br />
+                    <a href="http://mpi.edu.bd/m/vice_principal">বুলবুল আহমেদ</a>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Computer Technology</span>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Phone : 01687456345</span>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Email : bulbul.mpi@gmail.com</span>
+                    <br>
+                </div>
+
+
+
+                <div class="person">
+                    <h4> Class Teacher </h4>
+                    <img class="lazy" data-src="http://mpi.edu.bd/public/image/teacher/f038afeb0b.png"
+                        class="img-responsive" alt="Vice-Principal" title="Md. Shoket Hossain" /> <br />
+                    <a href="http://mpi.edu.bd/m/vice_principal">মোঃ আব্দুল ওয়াদুদ</a>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Computer Technology</span>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Phone : 01709210232</span>
+                    <br>
+                    <span style="color: rgb(230, 126, 34); --darkreader-inline-color: #e88a36;" data-darkreader-
+                        inline-color="">Email : pranthowadud@gmail.com</span>
+                    <br>
+                </div>
+
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Your Name" name="name" required>
+                        <textarea placeholder="Your Comment" name="comment" required></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+        <!-- start fotter ->>>> -->
+
+        <div class="row" style="background-color:#609513; margin-top:10px;">
+
+
+
+            <footer>
+                <div class="footer-content">
+                    <p style="padding-top: 10px; color: #fff; text-align: center;">&copy; 2023 Computer Secience And
+                        Technology Website. All rights reserved.</p>
+                </div>
+            </footer>
+
+        </div>
+
+
+        <!-- end fotter -->
+
+    </div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=186043058957343&autoLogAppEvents=1"></script>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#lightgallery').lightGallery();
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#gallery').lightGallery();
+        });
+    </script>
+    <!-- gallery -->
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <!--script src="http://mpi.edu.bd/public/gallery/dist/js/lightbox-plus-jquery.min.js"></script-->
+    <script src="http://mpi.edu.bd/public/gallery/dist/js/lightgallery-all.js"></script>
+    <script src="http://mpi.edu.bd/public/gallery/dist/js/jquery.mousewheel.min.js"></script>
+
+
+
+    <!--script type="text/javascript" src="http://mpi.edu.bd/public/assets/bootstrap/jquery.min.js"> </script-->
+    <script type="text/javascript" src="http://mpi.edu.bd/public/assets/bootstrap/bootstrap.min.js"> </script>
+
+    <!-- Image Slider Script -->
+
+
+
+    <!--script src="http://mpi.edu.bd/public/js/sliderJS/jquery.js"></script-->
+    <script src="http://mpi.edu.bd/public/js/sliderJS/amazingslider.js"></script>
+    <script src="http://mpi.edu.bd/public/js/sliderJS/initslider-1.js"></script>
+
+    <!--news Slider Script -->
+    <script src="http://mpi.edu.bd/public/js/plugins/jquery.easy-ticker.js"></script>
+
+    <!--hor. news Slider Script -->
+    <script src="http://mpi.edu.bd/public/js/plugins/jquery.li-scroller.1.0.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var lazyloadImages = document.querySelectorAll("img.lazy");
+            var lazyloadThrottleTimeout;
+
+            function lazyload() {
+                if (lazyloadThrottleTimeout) {
+                    clearTimeout(lazyloadThrottleTimeout);
+                }
+
+                lazyloadThrottleTimeout = setTimeout(function () {
+                    var scrollTop = window.pageYOffset;
+                    lazyloadImages.forEach(function (img) {
+                        if (img.offsetTop < (window.innerHeight + scrollTop)) {
+                            img.src = img.dataset.src;
+                            img.classList.remove('lazy');
+                        }
+                    });
+                    if (lazyloadImages.length == 0) {
+                        document.removeEventListener("scroll", lazyload);
+                        window.removeEventListener("resize", lazyload);
+                        window.removeEventListener("orientationChange", lazyload);
+                    }
+                }, 20);
+            }
+
+            document.addEventListener("scroll", lazyload);
+            window.addEventListener("resize", lazyload);
+            window.addEventListener("orientationChange", lazyload);
+        });
+
+    </script>
+
+
+</body>
+
+</html>
